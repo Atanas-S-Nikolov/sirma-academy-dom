@@ -1,0 +1,7 @@
+ul#items {
+    width: fit-content;
+}
+
+ul#items li:hover {
+    cursor: pointer;
+}

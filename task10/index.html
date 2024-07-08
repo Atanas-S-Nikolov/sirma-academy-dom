@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sphere volume calculator</title>
+</head>
+<body>
+    <p>Input radius value and get the volume of a sphere</p>
+    <form>
+        <label for="radius">Radius</label><br />
+        <input id="radius" name="radius" /><br />
+        <label for="volume">Volume</label><br />
+        <input id="volume" name="volume" value="0.0000" disabled/><br />
+        <input type="submit" value="Calculate" onclick="calculateVolume(event)"/>
+
+        <script src="./script.js"></script>
+    </form>
+</body>
+</html>

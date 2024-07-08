@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset=utf-8 />
+    <title>Change the content of a cell</title>
+    <style type="text/css">
+        body {
+            margin: 30px;
+        }
+    </style>
+</head>
+
+<body>
+    <table id="myTable" border="1"> </table>
+    <form>
+        <label for="rows">Rows count:</label>
+        <input type="number" id="rows" name="rows" />
+        <label for="cols">Cols count:</label>
+        <input type="number" id="cols" name="cols" />
+        <input type="button" onclick="createTable()" value="Create the table">
+        <input type="button" onclick="resetTable()" value="Reset the table">
+    </form>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
