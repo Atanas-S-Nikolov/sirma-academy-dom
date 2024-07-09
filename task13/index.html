@@ -12,8 +12,8 @@
     <div id="list-app">
         <p>Click on the item to change the text, or click on the button to create a new item.</p>
         <ul id="items"></ul>
-        <input type="text" value="">
-        <button type="button" onclick="createItem(event)">Create New</button>
+        <input type="text" oninput="handleInputChange(event)" value="">
+        <button id="create-btn" type="button" onclick="createItem(event)" disabled>Create New</button>
     </div>
 
     <script src="./script.js"></script>

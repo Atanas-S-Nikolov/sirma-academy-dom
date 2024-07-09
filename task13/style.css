@@ -2,6 +2,7 @@ ul#items {
     width: fit-content;
 }
 
-ul#items li:hover {
+ul#items li,
+#create-btn:not(:disabled){
     cursor: pointer;
 }
